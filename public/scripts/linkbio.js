@@ -6,7 +6,7 @@ const informacion = document.getElementById("informacion");
 
 const contenidoInfo = `<div class="contenedor-elementos-info">
 
-<a href="https://tinyurl.com/discord-ticoDev" class="elemento-info link-url">
+<a href="https://tinyurl.com/RivasDiscord" class="elemento-info link-url">
   <p class="nombre-link">Discord</p>
   <i class='bx bx-right-arrow-alt bx-flip-vertical flecha'></i>
 </a>
