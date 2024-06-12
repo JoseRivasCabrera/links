@@ -94,7 +94,7 @@ cajaInfo.addEventListener("click", function eventos(event) {
          </div>
       
          <div class="caja-precios">
-           <p class="precio-servicio"><span class="simbolo-dolar">$</span>6,45</p>
+           <p class="precio-servicio"><span class="simbolo-dolar">$</span>6,65</p>
            <p class="precio-descuento"><span>$</span>12,90</p>
          </div>
       
@@ -120,7 +120,7 @@ cajaInfo.addEventListener("click", function eventos(event) {
          </div>
       
          <div class="caja-precios">
-           <p class="precio-servicio"><span class="simbolo-dolar">$</span>10,45</p>
+           <p class="precio-servicio"><span class="simbolo-dolar">$</span>10,65</p>
            <p class="precio-descuento"><span>$</span>20,90</p>
          </div>
       
