@@ -21,13 +21,6 @@ const contenidoInfo = `<div class="contenedor-elementos-info">
   <i class='bx bx-right-arrow-alt bx-flip-vertical flecha'></i>
 </a>
 
-<div class="elemento-info ">
-  <p class="nombre-link">Portafolio</p>
-  <a href="https://tinyurl.com/Rivasportfolio" class="link-url">
-    <i class='bx bx-right-arrow-alt bx-flip-vertical flecha'></i>
-  </a>
-</div>
-
 </div>`;
 const contenidoServicios = `<a href="#" onclick="mostrarServicioCanva()" class="contenedor-elementos-servicio" id="servicio-canva">
 <div class="contenido-servicio-canva">

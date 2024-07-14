@@ -90,10 +90,10 @@ a {
   background-color: var(--letras-oscuras);
 }
 
-.caja-link-discord {
+/* .caja-link-discord {
   display: flex;
   border: 1px solid var(--fondo-gris);
-}
+} */
 
 .nombre-link {
   font-size: 28px;
@@ -150,7 +150,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   gap: .5rem;
   color: black;
 }
@@ -174,6 +173,14 @@ a {
 
   .contenedor-elementos {
     width: 90%;
+  }
+
+ 
+
+  .flecha, .nombre-link {
+    font-size: 46px;
+    display: flex;
+    align-items: center;
   }
 
   .contenedor-elementos-servicio {

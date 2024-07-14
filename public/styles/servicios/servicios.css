@@ -16,15 +16,19 @@
   width: 40%;
   padding: 4px;
   border-radius: 8px;
+  border: 4px solid #cc5e21 ;
+  box-shadow: 2px 2px 8px 2px gray;
   color: white;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-  background-color: #cc5e21;
+  background-color: #e47c44;
+  transition: all 0.3s ease;
 }
 
 .btn-solicitar-prueba:hover {
   background-color: #ac4812;
+  box-shadow: 2px 2px 15px 2px orange;
 }
 
 .btn-palabra-gratis {
