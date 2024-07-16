@@ -11,15 +11,16 @@ const contenidoInfo = `<div class="contenedor-elementos-info">
   <i class='bx bx-right-arrow-alt bx-flip-vertical flecha'></i>
 </a>
 
+<a href="#" class="elemento-info link-url">
+  <p class="nombre-link">Practicas Reales</p>
+  <i class='bx bx-right-arrow-alt bx-flip-vertical flecha'></i>
+</a>
+
 <a href="https://tinyurl.com/Documentos-ticoDev" class="elemento-info link-url">
   <p class="nombre-link">Documetos</p>
   <i class='bx bx-right-arrow-alt bx-flip-vertical flecha'></i>
 </a>
 
-<a href="#" class="elemento-info link-url">
-  <p class="nombre-link">Telegram</p>
-  <i class='bx bx-right-arrow-alt bx-flip-vertical flecha'></i>
-</a>
 
 </div>`;
 const contenidoServicios = `<a href="#" onclick="mostrarServicioCanva()" class="contenedor-elementos-servicio" id="servicio-canva">
