@@ -1,0 +1,140 @@
+.caja-proyecto-practica {
+  display: flex;
+  justify-content: center;
+}
+
+.proyecto-practica {
+  width: 90%;
+  margin: 10px;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nombre-practica {
+  width: 100%;
+  padding: 8px 0;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.caja-contenido-practica {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.caja-tecnologias-practica {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.titulo-tecnologias,
+.titulo-dificultad {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 4px;
+  color: #444;
+}
+
+.icono-practica {
+  width: 2rem;
+  margin: 2px;
+}
+
+.dificultad {
+  text-align: center;
+}
+
+.caja-descripcion {
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.descripcion-practica {
+  padding: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.caja-btn-practica {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.btn-ver-practica {
+  width: 80%;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver-practica:hover {
+  background-color: darkgreen;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .nombre-practica {
+    font-size: 1.8rem;
+  }
+  .caja-contenido-practica {
+    gap: 20px;
+  }
+  .icono-practica {
+    width: 3rem;
+  }
+  .titulo-tecnologias,
+  .titulo-dificultad {
+    font-size: 1.5rem;
+  }
+  .descripcion-practica {
+    font-size: 1.2rem;
+  }
+  .btn-ver-practica {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .nombre-practica {
+    font-size: 1.4rem;
+  }
+  .icono-practica {
+    width: 2rem;
+  }
+  .titulo-tecnologias,
+  .titulo-dificultad {
+    font-size: 1rem;
+  }
+  .descripcion-practica {
+    font-size: 0.9rem;
+  }
+  .btn-ver-practica {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
