@@ -16,46 +16,48 @@
   width: 40%;
   padding: 4px;
   border-radius: 8px;
-  border: 4px solid #cc5e21 ;
+  border: 4px solid #FF5722;
   box-shadow: 2px 2px 8px 2px gray;
-  color: white;
+  color: #FFFFFF;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-  background-color: #e47c44;
+  background-color: #FF5722;
   transition: all 0.3s ease;
 }
 
 .btn-solicitar-prueba:hover {
-  background-color: #ac4812;
-  box-shadow: 2px 2px 15px 2px orange;
+  background-color: #E64A19;
+  box-shadow: 2px 2px 15px 2px #FF5722;
 }
 
 .btn-palabra-gratis {
   color: rgb(243, 233, 57);
 }
 
-.contenedor-servicio-plata, .contenedor-servicio-oro  {
+.contenedor-servicio {
   width: 35%;
   padding: 15px;
   border-radius: 18px;
-  background-color: white
+  background-color: white;
+  border: 3px solid transparent; /* Border color set in specific classes */
+  transition: background-color 0.3s ease;
 }
 
 .contenedor-servicio-plata {
-  border: 3px solid #4B5FE3;
+  border-color: #2196F3;
 }
 
 .contenedor-servicio-oro {
-  border: 3px solid #E8A83D;
+  border-color: #FFC107;
 }
 
 .contenedor-servicio-plata:hover {
-  background-color: #C2E6FA;
+  background-color: #E3F2FD;
 }
 
 .contenedor-servicio-oro:hover {
-  background-color: #FFED9F;
+  background-color: #FFF8E1;
 }
 
 .caja-descuento {
@@ -72,7 +74,7 @@
   width: 80%;
   font-size: 18px;
   text-align: center;
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .caja-logo-servicio {
@@ -113,12 +115,12 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 28px;
   font-weight: 700;
-  color: #cc5e21;
+  color: #E64A19;
 }
 
 .precio-descuento {
   text-decoration: line-through;
-  color: #9d9ea0;
+  color: #9E9E9E;
 }
 
 .caja-btn-pedir {
@@ -127,31 +129,30 @@
   padding-top: 10px;
 }
 
-.btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
+.btn-pedir-servicio {
   width: 100%;
   padding: 8px;
   font-weight: bold;
-  padding-top: 10px;
   border-radius: 8px;
   text-align: center;
-  color: white;
-  background-color: #4B5FE3;
+  color: #FFFFFF;
+  background-color: #2196F3; /* Default to Plan Plata color */
+  transition: background-color 0.3s ease;
 }
 
-.btn-pedir-servicio-plata:hover {
-  background-color: #0923ce;
+.btn-pedir-servicio:hover {
+  background-color: #1976D2;
+}
+
+.btn-pedir-servicio-oro {
+  background-color: #FFC107;
 }
 
 .btn-pedir-servicio-oro:hover {
-  background-color: #E8A83D;
+  background-color: #FFA000;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  
-  /* .caja-servicio {
-    gap: 15px;
-  } */
-  
   .caja-btn-prueba {
     padding-bottom: 0;
   }
@@ -166,7 +167,7 @@
     gap: 15px;
   }
 
-  .contenedor-servicio-plata, .contenedor-servicio-oro  {
+  .contenedor-servicio {
     width: 45%;
   }
 
@@ -175,7 +176,7 @@
   }
 
   .caja-logo-servicio {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .logo-servicio {
@@ -187,7 +188,6 @@
   }
 
   .caja-precios {
-    gap: 5%;
     padding-top: 20px;
   }
 
@@ -199,14 +199,12 @@
     padding: 18px;
   }
 
-  .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
+  .btn-pedir-servicio {
     font-size: 32px;
   }
-
 }
 
-@media only screen and (min-width: 300px) and (max-width: 767px) {
-
+@media only screen and (max-width: 767px) {
   .caja-servicio {
     gap: 15px;
   }
@@ -219,7 +217,7 @@
     width: 70%;
   }
 
-  .contenedor-servicio-plata, .contenedor-servicio-oro  {
+  .contenedor-servicio {
     width: 75%;
   }
 
@@ -232,19 +230,18 @@
   }
 
   .caja-logo-servicio {
-    padding-top: 0px;
+    padding-top: 0;
   }
-  
+
   .logo-servicio {
     width: 80%;
   }
-  
+
   .descripcion-del-servicio {
     font-size: 1.4rem;
   }
 
   .caja-precios {
-    gap: 5%;
     padding-top: 20px;
   }
 
@@ -252,9 +249,8 @@
     font-size: 48px;
   }
 
-  .btn-pedir-servicio-plata, .btn-pedir-servicio-oro {
+  .btn-pedir-servicio {
     font-size: 28px;
   }
+}
 
-
-}  

@@ -70,64 +70,51 @@ contenedorDelContenido.innerHTML = contenidoInfo;
 
 window.mostrarServicioCanva = () => {
   const planesCanva = `<section class="caja-servicio">
+  <div class="caja-btn-prueba">
+    <a href="https://tinyurl.com/solicitarCanvaPro" class="btn-solicitar-prueba">Pide tu Canva pro <span class="btn-palabra-gratis">GRATIS!!</span></a>
+  </div>
 
-      <div class="caja-btn-prueba">
-         <a href="https://tinyurl.com/solicitarCanvaPro" class="btn-solicitar-prueba">Pide tu Canva pro <span class="btn-palabra-gratis">GRATIS!!</span></a>
-      </div>
-     
-      <div class="contenedor-servicio-plata">
-     
-        <div class="caja-descuento">
-          <img src="public/img/elementos-canva/imd-descuento.webp" alt="" class="img-descuento">
-          <h2 class="nombre-plan">PLAN PLATA</h2>
-        </div>
-     
-        <div class="caja-logo-servicio">
-          <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="" class="logo-servicio">
-        </div>
-     
-        <div class="caja-descripcion-servicio">
-          <h1 class="descripcion-del-servicio">+6 MESES CANVA PRO</h1>
-        </div>
-     
-        <div class="caja-precios">
-          <p class="precio-servicio"><span class="simbolo-dolar">$</span>6,65</p>
-          <p class="precio-descuento"><span>$</span>13,30</p>
-        </div>
-     
-        <div class="caja-btn-pedir">
-          <a href="https://tinyurl.com/planplata" class="btn-pedir-servicio-plata">Pedir</a>
-        </div>
-     
-      </div>
-     
-      <div class="contenedor-servicio-oro">
-     
-        <div class="caja-descuento">
-          <img src="public/img/elementos-canva/imd-descuento.webp" alt="" class="img-descuento">
-          <h2 class="nombre-plan">PLAN ORO</h2>
-        </div>
-     
-        <div class="caja-logo-servicio">
-          <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="" class="logo-servicio">
-        </div>
-     
-        <div class="caja-descripcion-servicio">
-          <h1 class="descripcion-del-servicio">+12 MESES CANVA PRO</h1>
-        </div>
-     
-        <div class="caja-precios">
-          <p class="precio-servicio"><span class="simbolo-dolar">$</span>10,65</p>
-          <p class="precio-descuento"><span>$</span>21,30</p>
-        </div>
-     
-        <div class="caja-btn-pedir">
-          <a href="https://tinyurl.com/canvaplanoro" class="btn-pedir-servicio-oro">Pedir</a>
-        </div>
-     
-      </div>
-     
-      </section>`;
+  <div class="contenedor-servicio-plata contenedor-servicio">
+    <div class="caja-descuento">
+      <img src="public/img/elementos-canva/imd-descuento.webp" alt="Descuento" class="img-descuento">
+      <h2 class="nombre-plan">PLAN PLATA</h2>
+    </div>
+    <div class="caja-logo-servicio">
+      <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="Logo Canva Pro" class="logo-servicio">
+    </div>
+    <div class="caja-descripcion-servicio">
+      <h1 class="descripcion-del-servicio">+6 MESES CANVA PRO</h1>
+    </div>
+    <div class="caja-precios">
+      <p class="precio-servicio"><span class="simbolo-dolar">$</span>6,65</p>
+      <p class="precio-descuento"><span>$</span>13,30</p>
+    </div>
+    <div class="caja-btn-pedir">
+      <a href="https://tinyurl.com/planplata" class="btn-pedir-servicio">Pedir</a>
+    </div>
+  </div>
+
+  <div class="contenedor-servicio-oro contenedor-servicio">
+    <div class="caja-descuento">
+      <img src="public/img/elementos-canva/imd-descuento.webp" alt="Descuento" class="img-descuento">
+      <h2 class="nombre-plan">PLAN ORO</h2>
+    </div>
+    <div class="caja-logo-servicio">
+      <img src="public/img/elementos-canva/Logo-canva-pro-sin-fondo.webp" alt="Logo Canva Pro" class="logo-servicio">
+    </div>
+    <div class="caja-descripcion-servicio">
+      <h1 class="descripcion-del-servicio">+12 MESES CANVA PRO</h1>
+    </div>
+    <div class="caja-precios">
+      <p class="precio-servicio"><span class="simbolo-dolar">$</span>10,65</p>
+      <p class="precio-descuento"><span>$</span>21,30</p>
+    </div>
+    <div class="caja-btn-pedir">
+      <a href="https://tinyurl.com/canvaplanoro" class="btn-pedir-servicio">Pedir</a>
+    </div>
+  </div>
+</section>
+`;
 
   contenedorDelContenido.innerHTML = planesCanva;
 }
